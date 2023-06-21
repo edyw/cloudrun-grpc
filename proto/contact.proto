@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "cloudrun-grpc/go-contact/proto/contactpb";
+
+package contact;
+
+service Contact {
+    rpc GetContact (ContactRequest) returns (ContactReply) {}
+}
+
+message ContactRequest {
+    string phoneNumber = 1;
+}
+
+message ContactReply {
+    string name = 1;
+}

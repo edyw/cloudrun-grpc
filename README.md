@@ -2,7 +2,7 @@
 
 This is a simple example of [gRPC](https://grpc.io/) Service to Service using Go and Node JS. Services are designed for GCP [Cloud Run](https://cloud.google.com/run) deployment, leveraging Google Cloud authentication and IAM authorization, private networking design for Serverless.
 
-You can find the full article [here]().
+You can find the full article [here](https://medium.com/google-cloud/grpc-service-to-service-on-cloud-run-132f3963d183).
 
 ## Quick start with gRPC service to service call, open to Internet, SSL enabled, http/2, no authentication 
 
